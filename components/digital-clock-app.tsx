@@ -59,7 +59,7 @@ export default function DigitalClock() {
             <Button
               variant={is24Hour ? "default" : "outline"}
               onClick={() => setIs24Hour(true)}
-              className="mr-2 font-bold text-black bg-slate-300 hover:bg-slate-100"
+              className="mx-2 font-bold text-black bg-slate-300 hover:bg-slate-100"
             >
               24-Hour Format
               </Button>
